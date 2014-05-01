@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/haiy/Documents/app/build'
+let g:netrw_dirhist_2='/Users/haiy'
+let g:netrw_dirhist_3='/Users/haiy/.vim_runtime'
+let g:netrw_dirhist_4='/private/etc/mach_init_per_user.d'
