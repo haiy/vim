@@ -1,6 +1,6 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/haiy/Documents/test_project/test_cpp'
-let g:netrw_dirhist_2='/Users/haiy/Documents/test_project'
-let g:netrw_dirhist_3='/Users/haiy/Documents'
-let g:netrw_dirhist_4='/Users/haiy/Documents/GITHUB'
+let g:netrw_dirhist_1='/home/haiy/Desktop'
+let g:netrw_dirhist_2='/home/haiy/.tmuxinator'
+let g:netrw_dirhist_3='/home/haiy/Documents/test_project/ade/IDCenter/IDMap'
+let g:netrw_dirhist_4='/home/haiy/Desktop'

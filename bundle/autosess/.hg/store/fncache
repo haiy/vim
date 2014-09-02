@@ -1,0 +1,6 @@
+data/.hgtags.i
+data/.hgignore.i
+data/doc/autosess.txt.i
+data/plugin/autosess.vim.i
+data/README.asciidoc.i
+data/Makefile.i
