@@ -21,6 +21,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0" >> $HOME/.vimrc
 
 echo "4 install jedi..."
+sudo pip install jedi
 cd ~/.vim/bundle/ && git clone --recursive https://github.com/davidhalter/jedi-vim.git
 
 cat "autocmd FileType python setlocal completeopt-=preview
