@@ -114,18 +114,14 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#=====================
-#personal settings
-#export http_proxy=127.0.0.1:8087
 
 export CLICOLOR=1
 alias ll='ls -a -l'
-TEST=/home/haiy/Documents/test_project/
-proxy=/home/haiy/Documents/goagent/local/proxy.py
-alias tmux="TERM=screen-256color-bce tmux"
+
 export TERM="xterm-256color"
 export LANG="zh_CN.UTF-8"
 export LC_ALL="zh_CN.UTF-8"
+
 source ~/.git-completion.bash
 alias ctags='/usr/local/bin/ctags'
 export GITHUB=/home/haiy/Documents/GITHUB
@@ -153,13 +149,7 @@ export HBASE_HOME=/home/haiy/Downloads/hbase-0.98.3-hadoop2
 export PATH=$HIVE_HOME/bin:$PATH
 export PATH=$HBASE_HOME/bin:$PATH
 export PATH=$PATH:$HADOOP_INSTALL/bin:$HADOOP_INSTALL/sbin:$GITHUB/bash_src:$SPARK_HOME/bin
-alias g5='ssh ib5'
-alias g6='ssh ib15'
-alias cdddd='cd ../../../'
-alias cddd='cd ../../'
-alias cdd='cd ../'
 
-export IDCenter=/home/haiy/Documents/test_project/ade/IDCenter
 export SCALA_HOME=/home/haiy/Downloads/scala-2.9.3
 #export SHARK_HOME=/home/haiy/Downloads/shark-0.8.0-bin-cdh4/shark-0.8.0
 export SHARK_HOME=/home/haiy/Downloads/shark-0.9.1-bin-hadoop2
@@ -170,4 +160,9 @@ export EDITOR=vim
 export CLASSPATH=/home/haiy/Downloads/data/checkstyle-5.7:$CLASSPATH
 source /home/haiy/.tmuxinator/*.bash
 
-export PYTHONSTARTUP=/home/haiy/.config/pythonstartup.py
+
+alias tmux="TERM=screen-256color-bce tmux"
+alias tl='tmux list-sessions'
+alias ta='tmux attach -t'
+alias td='tmux attach -d -t'
+alias tn='tmux new-session -s'
